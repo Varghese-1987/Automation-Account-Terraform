@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Az.Accounts",
+        "uri": "https://www.powershellgallery.com/api/v2/package/az.accounts/2.4.0"
+    },
+    {
+        "name": "Az.Resources",
+        "uri": "https://www.powershellgallery.com/api/v2/package/az.resources/4.2.0"
+    },
+    {
+        "name": "Az.Storage",
+        "uri": "https://www.powershellgallery.com/api/v2/package/az.storage/3.8.0"
+    },
+    {
+        "name": "Az.Sql",
+        "uri": "https://www.powershellgallery.com/api/v2/package/az.sql/3.3.0"
+    },
+    {
+        "name": "Az.Automation",
+        "uri": "https://www.powershellgallery.com/api/v2/package/az.automation/1.7.0"
+    },
+    {
+        "name": "Az.Monitor",
+        "uri": "https://www.powershellgallery.com/api/v2/package/az.monitor/2.5.0"
+    },
+    {
+        "name": "SqlServer",
+        "uri": "https://www.powershellgallery.com/api/v2/package/SqlServer/21.1.18245"
+    }
+]
