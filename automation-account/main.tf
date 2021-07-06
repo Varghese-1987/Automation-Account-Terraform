@@ -124,10 +124,6 @@ data "azurerm_storage_blob" "demo" {
   storage_container_name = var.storage_container
 }
 
-output "testing" {
-  value = data.azurerm_storage_blob.demo["dummy.psm1"]
-}
-
 resource "azurerm_automation_module" "hadr_modules" {
   for_each                = { for hm in local.hadr_modules : hm.name => hm }
   name                    = trimsuffix(each.value.name, ".psm1")

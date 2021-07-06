@@ -44,7 +44,3 @@ module "dr-control-automationaccount" {
   module.dr-storage-account]
 }
 
-output "demos" {
-  value = module.dr-control-automationaccount.testing
-}
-
